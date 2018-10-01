@@ -586,8 +586,8 @@
 
 /* Portrait and Landscape */
 
-		@media only screen 
-		and (max-device-width: 813px) /* Req 768px */
+		@media screen 
+		and (max-device-width: 960px) /* Req 768px */
 		and (-webkit-min-device-pixel-ratio: 3) {
 
 			.columns {
@@ -598,9 +598,10 @@
 
 		}
 
-		@media only screen 
-		and (max-device-width: 640px) 
-		and (-webkit-min-device-pixel-ratio: 3) {
+		@media screen 
+		and (min-device-width: 350px) 
+		and (max-device-width: 736px) 
+		and (-webkit-min-device-pixel-ratio: 1) {
 
 			.columns {
 				-moz-column-count: 1;

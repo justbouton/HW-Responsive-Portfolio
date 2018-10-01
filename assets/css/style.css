@@ -184,7 +184,6 @@ img {
 }
 
 #contact h4 {
-    color: 
 	margin: 0;
 	display:block;
 	font-size:13px;
@@ -248,7 +247,7 @@ fieldset {
 
 /* Portrait and Landscape */
 
- @media only screen /* Tested with Chrome emulator for iPhone */
+ @media screen /* Tested with Chrome emulator for iPhone */
  and (min-device-width: 350px) 
  and (max-device-width: 736px) 
  and (-webkit-min-device-pixel-ratio: 3) {
