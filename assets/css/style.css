@@ -339,18 +339,18 @@ fieldset {
     }
 
     #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-        margin:15px;
-        padding:10px;
+        margin: 15px;
+        padding: 10px;
     }
 
     #contact button[type="submit"] {
-        margin:15px;
-        padding:10px;
+        margin: 15px;
+        padding: 10px;
     }
 
     #contact textarea {
-        height:965px;
-        max-width:100%;
+        height: 800px;
+        max-width: 100%;
     resize:none;
     }
 /*
