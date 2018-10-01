@@ -582,7 +582,13 @@
 				transform: scale(1.1);
 			}
 
-		@media screen and (max-width: 736px) {
+/* `980px``768px``640px` */
+
+/* Portrait and Landscape */
+
+		@media only screen 
+		and (max-device-width: 813px) /* Req 768px */
+		and (-webkit-min-device-pixel-ratio: 3) {
 
 			.columns {
 				-moz-column-count: 2;
@@ -592,7 +598,9 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media only screen 
+		and (max-device-width: 640px) 
+		and (-webkit-min-device-pixel-ratio: 3) {
 
 			.columns {
 				-moz-column-count: 1;
