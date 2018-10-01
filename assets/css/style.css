@@ -334,7 +334,7 @@ fieldset {
         border: medium none !important;
         margin: 0 0 10px;
         min-width: 95%;
-        padding: 0;
+        padding: 5px 0;
         width: 9%;
     }
 
@@ -348,6 +348,11 @@ fieldset {
         padding:10px;
     }
 
+    #contact textarea {
+        height:965px;
+        max-width:100%;
+    resize:none;
+    }
 /*
     #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
         -webkit-transition:border-color 0.3s ease-in-out;
